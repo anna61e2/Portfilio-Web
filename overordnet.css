@@ -1,0 +1,62 @@
+/*************MENU******************/
+
+header {
+  padding: 1rem 2rem;
+  font-size: 15px;
+  font-family: "Raleway", sans-serif;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  margin: 0;
+  margin-top: 2rem;
+  padding: 0;
+  padding-bottom: 0.4rem;
+  gap: 30px;
+  overflow-x: auto;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 700;
+  color: black;
+}
+
+a:hover {
+  background-color: aliceblue;
+  border-radius: 30px;
+}
+
+/*****************TEKST***************/
+
+h1 {
+  font-family: "Bebas Neue", cursive;
+}
+
+h2 {
+  font-family: "Raleway", sans-serif;
+}
+
+h3 {
+  font-family: "Raleway", sans-serif;
+}
+
+h4 {
+  font-family: "Raleway", sans-serif;
+  font-style: italic;
+}
+
+footer {
+  font-family: "Raleway", sans-serif;
+  padding: 1rem 2rem;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+p {
+  font-family: "Raleway", sans-serif;
+}
+
+/********************************************/

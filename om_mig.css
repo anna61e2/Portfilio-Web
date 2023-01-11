@@ -1,0 +1,50 @@
+.baggrund2 {
+  background-image: url(GRAPHIC/eksamenTegnebræt2.png);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+@media (min-width: 800px) {
+  .grid_1-1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+}
+
+img {
+  margin-top: 0;
+}
+
+.grid_1 {
+  order: 1;
+  display: grid;
+  padding: 150px;
+  justify-content: center;
+}
+.titel {
+  order: 2;
+  padding: 70px;
+}
+
+.overskrift {
+  order: 1;
+}
+
+.tekst {
+  order: 3;
+}
+
+.col {
+  padding: 20px;
+}
+
+.om_mig {
+  padding: 2%;
+  width: 79%;
+  margin: 10%;
+}
+
+.brodtekst {
+  line-height: 102%;
+}
